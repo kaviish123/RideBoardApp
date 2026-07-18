@@ -1,50 +1,129 @@
-# Welcome to your Expo app 👋
+# 🚗 RideBoard
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern ride-sharing mobile application built with **React Native**, **Expo**, **TypeScript**, and **Firebase**. RideBoard enables users to post rides, browse available rides, and connect with fellow travelers through a clean, intuitive interface.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Features
 
-   ```bash
-   npm install
-   ```
+- 🔐 Secure Firebase Authentication
+- 🚗 Post a Ride
+- 🔍 Browse Available Rides
+- ✏️ Edit Posted Rides
+- 📞 One-Tap Call Driver
+- 📧 Driver Contact Information
+- 👤 User Profile Management
+- 🎨 Modern UI with Responsive Design
+- ⚡ Fast and Smooth Navigation
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- React Native
+- Expo
+- TypeScript
+- Firebase Authentication
+- Cloud Firestore
+- Expo Router
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📂 Project Structure
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+RideBoardApp/
+├── app/
+├── assets/
+├── components/
+├── constants/
+├── firebase/
+├── hooks/
+├── scripts/
+├── package.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🚀 Getting Started
 
-To learn more about developing your project with Expo, look at the following resources:
+### Clone the repository
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone https://github.com/kaviish123/RideBoardApp.git
+```
 
-## Join the community
+### Navigate into the project
 
-Join our community of developers creating universal apps.
+```bash
+cd RideBoardApp
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the Expo development server
+
+```bash
+npx expo start
+```
+
+---
+
+## 📦 Build APK
+
+Generate an Android APK using EAS Build:
+
+```bash
+eas build --platform android --profile preview
+```
+
+Generate an Android App Bundle (AAB) for the Google Play Store:
+
+```bash
+eas build --platform android --profile production
+```
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of your app here.
+
+| Home | Explore |
+|------|----------|
+| ![Home](screenshots/home.png) | ![Explore](screenshots/explore.png) |
+
+| Post Ride | Profile |
+|-----------|----------|
+| ![Post](screenshots/post.png) | ![Profile](screenshots/profile.png) |
+
+---
+
+## 🎯 Future Improvements
+
+- 💬 In-app Chat
+- 📍 Live Location Tracking
+- ⭐ Ratings & Reviews
+- 🔔 Push Notifications
+- 💳 Online Payment Integration
+- 🗺️ Route Optimization
+
+---
+
+## 👨‍💻 Developer
+
+**Kavi Ishwarrya S K**
+
+- GitHub: https://github.com/kaviish123
+- LinkedIn: https://www.linkedin.com/in/kavi-ishwarrya-s-k-9257b52a3/
+
+---
+
+## ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
